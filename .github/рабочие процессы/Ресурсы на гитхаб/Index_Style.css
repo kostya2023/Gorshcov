@@ -1,0 +1,60 @@
+/* Начало кода */
+/* Аннимация */
+.card:hover{
+    transform: scale(1.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px;
+}
+
+.card1:hover{
+    transform: scale(1.5);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px;
+}
+/* Конец аннимации */
+
+/* Структура */
+.card{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 59, 59);
+    margin-top: 30px;
+    transition: 1s;
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(255, 107, 107);
+}
+
+a{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+}
+
+.card1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 59, 59);
+    transition: 1s;
+    margin-left: 600px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border: 3px solid rgb(255, 107, 107);
+}
+
+body{
+    background-color: rgb(255, 59, 59);
+}
+
+.scale{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+}
+/* Конец стрктуры */
+/* Конец кода */
